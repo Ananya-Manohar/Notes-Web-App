@@ -7,7 +7,7 @@
     <meta property="og:url" content="https:Anu-notes/home.html">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <!--giving title-->
-    <title>Anu-Notes</title>
+    <title>Hanan</title>
     <!--icon on the titlebar-->
     <link rel="icon" href="icons/snotes1.png">
     <!--linking the google fonts-->
@@ -23,7 +23,7 @@
     <script src="https://kit.fontawesome.com/1fa3530753.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body id="all" class="all">
     <div class="popup-box">
         <div class="popup">
             <div class="content">
@@ -47,19 +47,16 @@
         </div>
     </div>
     <header id="header">
-            <img class="logo" src="icons/logo.png" alt="logo">
+            <img class="logo" src="icons/snotes1.png" alt="logo">
             <nav>
                 <ul>
                     <li><a href="home.html">All notes</a></li>
-                    <li><a href="home.html">Old Format Notes</a></li>
-                    <li><a href="home.html">Shared Notes</a></li>
                     <li><a href="home.html">Trash</a></li>
                     <li><i class="fa-solid fa-magnifying-glass"></i>
-                    <input id="searchbar"></li>
+                    <input id="searchbar" class="searchbar"></li>
                     
                     <li><a href="" id="minimenu"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
-                    
-                    <i class="fa fa-moon-o" aria-hidden="true" id="darktoggle" script="function()"></i> 
+                    <button><i class="fa-solid fa-sun" id="toggleDark"></i></button>
                 </ul>
             </nav>
         <a class="mngfl" href="managefol.html" target="_blank"><button class="mngf">Manage Folders</button></a>
@@ -67,7 +64,7 @@
     <h2 align="center">All Notes</h2>
     <div class="wrapper">
         <li class="add-box">
-            <div class="icon"><i class="fa fa-plus" aria-hidden="true"></i></div>
+            <div class="icon"><i class="fa-solid fa-pen-to-square"></i></div>
             <p>Add a new Note</p>
         </li>
     </div>
