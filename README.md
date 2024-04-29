@@ -1,4 +1,4 @@
-#Memo-Master
+Memo-Master
 ![image](https://github.com/ananyamanohar22/Memo-Master/assets/96736528/520abe89-3a0b-4c6a-a951-10aa1061d506)
 ![image](https://github.com/ananyamanohar22/Memo-Master/assets/96736528/b649ce9c-5d72-416b-945e-7faec271123d)
 ![image](https://github.com/ananyamanohar22/Memo-Master/assets/96736528/709495fe-dd51-4cd8-b277-df0785664d2c)
